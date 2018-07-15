@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:checkable="true"
+        android:icon="@drawable/home"
+        android:title="@string/home_menu" />
+
+    <item
+        android:id="@+id/script"
+        android:checkable="true"
+        android:icon="@drawable/script"
+        android:title="@string/scripts" />
+
+    <item
+        android:id="@+id/backup"
+        android:checkable="true"
+        android:icon="@drawable/backup"
+        android:title="@string/backup" />
+
+    <item
+        android:id="@+id/privacy"
+        android:checkable="true"
+        android:icon="@drawable/security"
+        android:title="@string/privacy" />
+
+    <item
+        android:id="@+id/support"
+        android:checkable="true"
+        android:icon="@drawable/contactus"
+        android:title="@string/support" />
+
+    <item
+        android:id="@+id/logout"
+        android:checkable="true"
+        android:icon="@drawable/logout"
+        android:title="@string/logout" />
+
+</menu>

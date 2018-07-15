@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_7">7dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_1">1dp</dimen>
+    <!-- text size. -->
+
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+    <dimen name="dimen_image_circle">80dp</dimen>
+</resources>

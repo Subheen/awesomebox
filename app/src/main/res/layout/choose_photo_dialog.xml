@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_photo_lib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_picker_dialog"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="@string/photo_library"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:background="@color/background_grey" />
+
+    <TextView
+        android:id="@+id/tv_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_picker_dialog"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="@string/take_photo"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:background="@color/background_grey" />
+
+    <TextView
+        android:id="@+id/cancel_dialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_picker_dialog"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="@string/cancel"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+</LinearLayout>

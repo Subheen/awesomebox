@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@drawable/blue_button"
+    android:paddingBottom="@dimen/dimen_10">
+
+
+    <TextView
+        android:id="@+id/txt_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:gravity="center"
+        android:padding="@dimen/dimen_20"
+        android:text="+1 234 567 8900"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dialog_no"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_prompt"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/blue_button"
+        android:text="Cancel"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/dialog_yes"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_prompt"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/blue_button"
+        android:text="YES"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp" />
+
+</RelativeLayout>

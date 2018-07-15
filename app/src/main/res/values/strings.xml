@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Awesomebox</string>
+    <string name="str_open">Open</string>
+    <string name="str_close">Close</string>
+    <string name="error_message">There was problem processing your request, Please try again</string>
+    <string name="photo_library">Photo Library</string>
+    <string name="take_photo">Take photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="str_fav_mate">My Jobs</string>
+    <string name="str_payments">Payments</string>
+    <string name="str_home">Home</string>
+    <string name="home_menu">HOME</string>
+    <string name="scripts">SCRIPTS</string>
+    <string name="backup">BACKUP</string>
+    <string name="privacy">PRIVACY</string>
+    <string name="support">SUPPORT</string>
+    <string name="logout">LOGOUT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="caps_awesome">AWESOMEBOX</string>
+    <string name="logout_tag">Are you sure you want to logout? Click the button below to logout from the application.</string>
+    <string name="logout_small">Logout</string>
+    <string name="backing_up">Backing Up:</string>
+    <string name="awesomebox_bold">AWESOMEBOX</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="need_account"><u>Need an account?</u></string>
+    <string name="run_this_task">RUN THIS TASK</string>
+    <string name="backup_title">BACKUP</string>
+    <string name="suport">SUPPORT</string>
+    <string name="support_tag">We appreciate our customers \nfeedback and are very actively \nresponding. Please feel free to reach \nout to us.</string>
+    <string name="call_us">Call Us</string>
+    <string name="email_us">Email Us</string>
+    <string name="p_policy">Privacy</string>
+</resources>
