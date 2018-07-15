@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_row_backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backup_file_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            android:src="@drawable/ic_action_file" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/backup_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capture.png"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/backup_file_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:inputType=""
+                android:maxLines="2"
+                android:maxWidth="350dp"
+                android:text="C:/Users/awesomebox/images/profile/jklijhggffdgggg/jygtf"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/backup_file_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12-12-17"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_row_backup"
+        android:background="@color/lightGrey" />
+</RelativeLayout>

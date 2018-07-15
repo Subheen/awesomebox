@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49c3ff</color>
+    <color name="colorPrimaryDark">#52c3fb</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="background_grey">#f3f5f7</color>
+    <color name="text_primary_light">#bfc7d6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toolbar">#57b9f8</color>
+
+    <color name="text_primary">#2e3b4c</color>
+
+    <color name="secondary_color">#2e7de4</color>
+    <color name="dark_blue">#0059ce</color>
+    <color name="fab_color">#2e7de4</color>
+    <color name="background">#ffffff</color>
+
+    <color name="white_60_trans">#99ffffff</color>
+    <color name="black">#000000</color>
+    <color name="error_color">#DD2C00</color>
+
+    <!-- DRAWER_COLORS -->
+    <color name="color_drawer_light">#939598</color>
+    <color name="color_drawer_trans">#bb808285</color>
+    <color name="transparent">#00000000</color>
+    <color name="lightPrimary">#1b9bec</color>
+    <color name="lightGrey">#bb9d9ea1</color>
+    <color name="colorgreen">#00e889</color>
+    <color name="color_bg">#EBF0F0</color>
+
+    <color name="field_inactive">#737980</color>
+    <color name="text">#2e3b4c</color>
+    <color name="placeholder_inactive">#bfc7d6</color>
+    <color name="grad_dark_blue">#19a9ff</color>
+    <color name="grad_light_blue">#49c3ff</color>
+    <color name="tabs_color">#23a8de</color>
+    <color name="tabs_indicator">#46cfff</color>
+
+    <color name="script_green">#41d744</color>
+    <color name="script_red">#e13a3d</color>
+    <color name="script_yellow">#fed912</color>
+    <color name="script_blue">#199dff</color>
+    <color name="script_purple">#9664f0</color>
+
+    <color name="script_grye">#eaeaea</color>
+    <color name="script_grey_icon">#dbdbdb</color>
+</resources>

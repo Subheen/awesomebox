@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:rb_color="#0099CC"
+    app:rb_duration="3000"
+    app:rb_radius="32dp"
+    app:rb_rippleAmount="6"
+    app:rb_scale="6">
+
+    <ImageView
+        android:id="@+id/centerImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cube_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centerImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="No Intenet Connection"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+</com.skyfishjy.library.RippleBackground>
