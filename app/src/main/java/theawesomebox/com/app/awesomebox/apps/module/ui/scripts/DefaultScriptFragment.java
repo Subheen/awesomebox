@@ -146,7 +146,7 @@ public class DefaultScriptFragment extends BaseFragment {
                 switch (view.getId()) {
                     case R.id.btn_run_script:
                         // Toast.makeText(getActivity(), "Script run at index: " + position, Toast.LENGTH_SHORT).show();
-                        String scriptName = scriptList.get(position).getScriptName();
+                        String scriptName = scriptList.get(position).getFileName();
                         int scriptId = scriptList.get(position).getScriptid();
                         runScriptType = scriptList.get(position).getScriptName();
 
@@ -171,8 +171,7 @@ public class DefaultScriptFragment extends BaseFragment {
         if (AppUtils.ifNotNullEmpty(userToken)) {
             URL_RUN_SCRIPT = AppConstants.RUN_SCRIPTS;
 
-            HttpRequestItem requestItem = new HttpRequestItem(
-                    AppConstants.getServerUrl(URL_RUN_SCRIPT));
+            HttpRequestItem requestItem = new HttpRequestItem(AppConstants.getServerUrl(URL_RUN_SCRIPT));
 
             requestItem.setHttpRequestType(NetworkUtils.HTTP_POST);     //by default its GET
 
