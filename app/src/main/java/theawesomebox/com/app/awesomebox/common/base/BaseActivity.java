@@ -93,6 +93,7 @@ abstract public class BaseActivity extends AppCompatActivity implements OnConten
         connectivityCheck();
     }
 
+
     private void connectivityCheck() {
         IntentFilter filter = new IntentFilter();
         filter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
@@ -200,6 +201,8 @@ abstract public class BaseActivity extends AppCompatActivity implements OnConten
     @Override
     protected void onStop() {
         super.onStop();
+        if (receiver != null)
+            unregisterReceiver(receiver);
 //        FlurryAgent.onEndSession(getApplicationContext());
     }
 
